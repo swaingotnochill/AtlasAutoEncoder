@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+sys
+torch
+fastai
+scipy
+seaborn
+corner
