@@ -3,7 +3,7 @@ pandas
 matplotlib
 sys
 torch
-fastai
+fastai == 1.0.61
 scipy
 seaborn
 corner
