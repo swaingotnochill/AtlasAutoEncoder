@@ -6,8 +6,8 @@ Here, you can find the codes for implementation of autoencoder-decoder network t
 ## Data
 
 The ATLAS experiments being conducted at the Large Hadron Collider at CERN produce millions of proton-proton collision events. Here, I analyse the variables from the 4-momentum from the leading jets.
-- [Training Set]('https://github.com/swaingotnochill/AtlasAutoEncoder/blob/main/Processed%20Data/train%20.csv')
-- [Test Set]('https://github.com/swaingotnochill/AtlasAutoEncoder/blob/main/Processed%20Data/test.csv')
+- [Training Set](https://github.com/swaingotnochill/AtlasAutoEncoder/blob/main/Processed%20Data/train%20.csv)
+- [Test Set](https://github.com/swaingotnochill/AtlasAutoEncoder/blob/main/Processed%20Data/test.csv)
 
 ### The 4 Variables:
 - *pt*: transverse momentum pT 
@@ -38,7 +38,7 @@ The analysis has been done by preprocessing the data in two ways and comparing t
 2. Histogram to visulaise the data distribution. 
 3. Train the Model. 
 (NOTE: You can just use the pretrained model by loading it) 
--[Model]('https://github.com/swaingotnochill/AtlasAutoEncoder/blob/main/models/AE_GivenNetworkWithSVD_v2.pth')
+-[Model](https://github.com/swaingotnochill/AtlasAutoEncoder/blob/main/models/AE_GivenNetworkWithSVD_v2.pth)
 5. Reconstruction of the data using the auto encoder-decoder model.  
 The plots for both the reconstructed normalised as well as custom standardised data are shown.  
 5. Reconstruction Loss (Residual).  
