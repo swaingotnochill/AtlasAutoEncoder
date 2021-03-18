@@ -35,7 +35,6 @@ The Colab Notebook consist of the following modules:
 The analysis has been done by preprocessing the data in two ways and comparing the results by auto-ecoding the two sets of preprocessed data. Preprocessing of the data:
 - Normalisation of data: Subtract the mean of the training set and divide by standard deviation of the training set. 
 - Singlular Value Decomposition(SVD): Mathematical technique used for dimensionality reduction. We will add the singular values to original dataframe and then pass it through the deep autoencoder network.  
-- 
 #### Utils.py 
 This file contains basic script used for preprocessing of data like removing delimiters, normalization and svd.
 
